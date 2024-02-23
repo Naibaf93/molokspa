@@ -1,0 +1,22 @@
+{
+  "name": "molokspa",
+  "version": "1.0.0",
+  "description": "Trabajo utilizando SASS, Gulp, CSS y mas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naibaf93/molokspa.git"
+  },
+  "author": "Fabian Huertas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naibaf93/molokspa/issues"
+  },
+  "homepage": "https://github.com/Naibaf93/molokspa#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
