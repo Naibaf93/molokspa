@@ -23,11 +23,12 @@ function css( done ) {
     done(); 
 }
 
-function imagenes ( done ) {
-    src('src/img/**/*')
+function imagenes () {
+    return src('src/img/**/*')
+        .pipe(imagemin({ optimizationLevel: 3 }))
         .pipe( dest('build/img') );
 
-        done();
+        
 }
 
 function dev() {
