@@ -1,33 +1,25 @@
 {
   "name": "molokspa",
   "version": "1.0.0",
-  "description": "Trabajo utilizando SASS, Gulp, CSS y mas",
+  "description": "Spa, BEM, SASS, Gulp, CSS Grid",
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Naibaf93/molokspa.git"
-  },
   "author": "Fabian Huertas",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Naibaf93/molokspa/issues"
-  },
-  "homepage": "https://github.com/Naibaf93/molokspa#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "cssnano": "^5.1.15",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
     "gulp": "^4.0.2",
-    "gulp-avif": "^1.1.1",
+    "gulp-avif": "^1.0.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^9.0.1",
-    "gulp-sass": "^5.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-webp": "^4.0.1",
-    "postcss": "^8.4.35",
-    "sass": "^1.71.1"
+    "postcss": "^8.3.6",
+    "sass": "^1.37.5"
   },
   "browserslist": [
     "last 1 version",
