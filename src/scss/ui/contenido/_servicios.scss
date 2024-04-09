@@ -1,0 +1,9 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.servicios {
+    &__heading {
+        @include m.headingCursiva;
+        margin-bottom: 5rem;
+    }
+}    
